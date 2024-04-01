@@ -42,6 +42,12 @@ function draw() {
   stroke(255, 0, 255); // 분홍색 선색 설정
   ellipse(rotatingPointX, rotatingPointY, 10); // 회전하는 점 그리기
 
+  // "move the button" 텍스트 그리기
+  fill(255, 0, 0, 200); // 빨간색, 200 alpha 값
+  textAlign(CENTER, BOTTOM); // 중앙 정렬, 아래쪽 정렬
+  textSize(12);
+  text("move the button", width / 2, height / 2 + 50); // "move the button" 텍스트 그리기
+
   // 하단 레이블 그리기 (텍스트 색상을 흰색으로 변경)
   fill(255); // 흰색 텍스트
   textAlign(RIGHT, BOTTOM); // 하단 정렬
