@@ -42,11 +42,11 @@ function draw() {
   stroke(255, 0, 255); // 분홍색 선색 설정
   ellipse(rotatingPointX, rotatingPointY, 10); // 회전하는 점 그리기
 
-  // 우측 레이블 그리기 (텍스트 색상을 흰색으로 변경)
+  // 하단 레이블 그리기 (텍스트 색상을 흰색으로 변경)
   fill(255); // 흰색 텍스트
-  textAlign(RIGHT); // 우측 정렬
+  textAlign(RIGHT, BOTTOM); // 하단 정렬
   textSize(12);
-  text("joonk2.github.io", width / 2 - 10, height / 2 + 20); // 우측 레이블 그리기
+  text("joonhwan.K", width / 2 - 10, height / 2 - 20); // 하단 레이블 그리기
 }
 
 function drawVector(origin, vector, label) {
