@@ -22,7 +22,7 @@ function draw() {
   // x 벡터 그리기 (원형으로 회전)
   let rotatedXVector = p5.Vector.fromAngle(angle).mult(xVector.mag());
   stroke(255, 0, 255); // 분홍색
-  drawVector(createVector(0, 0), rotatedXVector, 'X');
+  drawVector(createVector(0, 0), rotatedXVector, 'x');
 
   // gamma*x 벡터 그리기 (타원형으로 회전)
   let rotatedGammaXVector = p5.Vector.fromAngle(angle).mult(gamma * xVector.mag());
@@ -33,7 +33,7 @@ function draw() {
   }
   rotatedGammaXVector.rotate(angle); // 각도에 따라 회전
   stroke(0, 0, 255); // 파란색
-  drawVector(createVector(0, 0), rotatedGammaXVector, 'γX');
+  drawVector(createVector(0, 0), rotatedGammaXVector, 'Ax');
 
   // 회전하는 점 그리기
   let rotatingPointX = cos(angle) * 100; // 각도에 따라 x 위치 계산
@@ -73,7 +73,7 @@ function drawVector(origin, vector, label) {
 
   // 선 그리기
   strokeWeight(2); // 선 두께
-  if (label === 'X') {
+  if (label === 'x') {
     stroke(255, 0, 255); // 분홍색
   } else {
     stroke(0, 0, 255); // 파란색
