@@ -50,9 +50,9 @@ function draw() {
 
   // 하단 레이블 그리기 (텍스트 색상을 흰색으로 변경)
   fill(255); // 흰색 텍스트
-  textAlign(RIGHT, BOTTOM); // 하단 정렬
+  textAlign(RIGHT, TOP); // 상단 정렬
   textSize(12);
-  text("joonhwan.K", width / 2 - 10, height / 2 - 20); // 하단 레이블 그리기
+  text("joonhwan.K", width / 2 - 10, height / 160 - 190); // 하단 레이블 그리기
 }
 
 function drawVector(origin, vector, label) {
