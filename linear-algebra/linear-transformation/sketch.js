@@ -118,7 +118,7 @@ function draw() {
      fill(255);
      textSize(15)
      textAlign(RIGHT)
-     text('(c) linear-transformation', width * 0.95, height * 0.95)
+     text('linear-transformation', width * 0.95, height * 0.95)
 
      textAlign(LEFT)
      textSize(15)
