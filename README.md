@@ -1,4 +1,4 @@
-these are used as a math tools in [https://joonk2.github.io](https://joonk2.github.io) <br>
+these are used as a math tools in [https://joonk2.github.io](https://joonk2.github.io)  almost taken from https://angeloyeo.github.io/<br>
 if you want to use then follow down below in sequence <br>
 
 ```bash
